@@ -1,0 +1,27 @@
+{
+    "name": "YOUR_APP_NAME",
+    "description": "YOUR_APP_DESCRIPTION",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "icons": {
+        "16": "/assets/icons/icon-16x16.png",
+        "32": "/assets/icons/icon-32x32.png",
+        "48": "/assets/icons/icon-48x48.png",
+        "128": "/assets/icons/icon-128x128.png"
+    },
+    "action": {
+        "default_popup": "popup/index.html",
+        "default_icon": {
+            "16": "/assets/icons/icon-16x16.png",
+            "32": "/assets/icons/icon-32x32.png",
+            "48": "/assets/icons/icon-48x48.png",
+            "128": "/assets/icons/icon-128x128.png"
+        }
+    },
+    "options_page": "options/index.html",
+    "background": {
+        "service_worker": "background/index.js"
+    },
+    "permissions": [],
+    "host_permissions": []
+}
